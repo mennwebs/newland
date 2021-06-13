@@ -1,0 +1,50 @@
+// CSS VARIABLES
+:root {
+  --s-accent: #fa824c;
+  --s-accent-hover: #fba179;
+  --s-bg: #fff;
+  --s-text: #161616;
+  --s-line: #dcdfe5;
+  --s-noti: #c00;
+  --s-border: #dee3e9;
+  --s-border-radius: 3px;
+  --s-box-padding: 15px;
+  --s-heading: "Anuphan", sans-serif;
+  --s-heading-weight: 400;
+  --s-heading-line-height: 1.3;
+  --s-body: "Sarabun", sans-serif;
+  --s-body-line-height: 1.625;
+  --s-space: 16px;
+  --s-container: 100%;
+  --s-header-height: 50px;
+  --s-footer-height: 40px;
+  --s-title-size: 1.5rem;
+  --s-title-height: 120px;
+  --s-title-bg-blur: 20px;
+  --s-title-bg-opacity: 0.7;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --s-space: 20px;
+    --s-container: 752px;
+  }
+}
+
+@media (min-width: 1008px) {
+  :root {
+    --s-header-height: 70px;
+    --s-space: 24px;
+    --s-container: 1008px;
+  }
+  .main-header {
+    --s-title-height: 220px;
+    --s-title-size: 2rem;
+  }
+}
+
+@media (min-width: 1008px) {
+  :root {
+    --s-container: 1080px;
+  }
+}

@@ -1,0 +1,49 @@
+/*
+ * Font Name: Anuphan
+ */
+@font-face {
+  font-family: "Anuphan";
+  src: url("../fonts/anuphan/anuphan.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Anuphan";
+  src: url("../fonts/anuphan/anuphan-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Anuphan";
+  src: url("../fonts/anuphan/anuphan-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*
+ * Font name: Sarabun
+ */
+@font-face {
+  font-family: "Sarabun";
+  src: local("Sarabun"), url("../fonts/sarabun/Sarabun-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sarabun";
+  src: local("Sarabun"), url("../fonts/sarabun/Sarabun-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sarabun";
+  src: local("Sarabun"), url("../fonts/sarabun/Sarabun-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
